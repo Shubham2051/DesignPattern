@@ -7,5 +7,10 @@ public class client {
         Singleton b=Singleton.getInstance();
         System.out.println(b);
 
+        Singelton_enum a_enum=Singelton_enum.INSTANCE;
+        System.out.println(a_enum.hashCode());
+        Singelton_enum b_enum=Singelton_enum.INSTANCE;
+        System.out.println(b_enum.hashCode());
+
     }
 }
